@@ -1,4 +1,54 @@
 body {
+    margin: 1px;
+    position: relative;
+    top: 0px;
+    left: 0px;
     background-color: deepskyblue;
     height: 1000px;
+    font-family: sans-serif;S
+}
+
+input[name=username] {
+    width: 140px;
+}
+
+input[name=submit] {
+    width: 50px;
+}
+
+#counter-box {
+    width: 200px;
+    font-size: 9px;
+}
+
+#activity {
+    background-color: #15c4ff;
+    font-size: 10px;
+    border: 1px solid #68d9ff;
+    width: 200px;
+    height: 200px; 
+    overflow: scroll;
+}
+
+.status {
+    font-style: italic;
+    color: #fd4343;
+}
+
+#message-box {
+    margin-top: 3px;
+}
+
+input[name=message]{  
+    width: 140px;   
+}
+
+input[name=sendmessage] {
+    width: 50px;
+}
+
+.cursors {
+    top: 0px;
+    left: 201px;
+    position: absolute;
 }
