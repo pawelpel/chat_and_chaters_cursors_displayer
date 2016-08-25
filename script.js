@@ -26,7 +26,6 @@ document.addEventListener('DOMContentLoaded', function(){
     
     
     MouseTogether.prototype.init = function(){
-
         
         /* HERE CHANGE YOUR IP */ 
         this.ws = new WebSocket("ws://192.168.0.100:8888/ws");
