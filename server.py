@@ -2,8 +2,8 @@ from tornado import websocket, web, ioloop
 import json
 import os
 
-
 clients = []
+
 
 class IndexHandler(web.RequestHandler):
     def get(self):
@@ -39,7 +39,6 @@ class SocketHandler(websocket.WebSocketHandler):
         if self in clients:
             clients.remove(self)
 
-
     def on_message(self, message):
 
         message = json.loads(message)
@@ -55,7 +54,6 @@ class SocketHandler(websocket.WebSocketHandler):
 
         for c in clients:
             c.write_message(message)
-
 
 
 app = web.Application([(r'/ws', SocketHandler),

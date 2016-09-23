@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function(){
     MouseTogether.prototype.init = function(){
         
         /* HERE CHANGE YOUR IP */ 
-        this.ws = new WebSocket("ws://192.168.0.100:8888/ws");
+        this.ws = new WebSocket("ws://localhost:8888/ws");
         
         this.usernameButton.onclick = function(e){      
             e.preventDefault();
