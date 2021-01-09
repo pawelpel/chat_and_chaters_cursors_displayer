@@ -1,6 +1,6 @@
 # js-py-chat_and_chaters_mouse_displayer
 
-Chat with others chaters' mouse(cursor) displayer made to practice js(websockets)/py(tornado)
+Chat with others chaters mouse (cursors) displayer made to practice js (websockets) / py (tornado)
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=BMLzKnOkNXs
 " target="_blank"><img src="http://img.youtube.com/vi/BMLzKnOkNXs/0.jpg" 
